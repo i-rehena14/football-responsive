@@ -30,7 +30,7 @@ header-section style
 .header-section{
     display:flex;
     background-color: #2D25A0;
-    width:100%;
+    width:1440;
     height: 677px; 
 }
 .title h1{
@@ -76,7 +76,7 @@ header-section style
     height:50px;
     position: relative;
     left: -75px;
-    bottom: -145px;
+    bottom: -140px;
     transition: transform 2s  ease-out 0.1s;
 }
 .header-img:hover .ball img{
@@ -218,4 +218,38 @@ header-section style
     font-weight: 400px;
     font-size: 18px;
     margin: 20px 0px;
+}
+/* ----------------------------
+---------Media Queries ------------
+-------------------------------*/
+/* Mobile Devices */
+@media only screen and (max-width:688px){
+    .container{
+        width:100%;
+    }
+    
+    .players{
+        
+        grid-template-columns: repeat(1,1fr);
+    }
+    .title,.player,.blogs,.blog,.second-container{
+        flex-direction: column;
+    }
+    
+    
+}
+/* ---------------
+        Tablet   
+-------------- */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .container{
+        width:100%;
+    }
+    .players{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .player,.blogs,.second-container{
+        flex-direction: column;
+    }
+    
 }
