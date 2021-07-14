@@ -1,5 +1,6 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 /*--------------------------
  common styles or utilities
  --------------------------*/
@@ -116,3 +117,42 @@ header-section style
     font-weight: 400px;
     /* margin-top: 10px; */
  }
+ /*----------------------
+     Footer Style 
+   ---------------------*/
+.footer-area{
+    /* width: 483.87px;
+    height: 213px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 158px;
+}
+.footer-area img{
+    width: 483.87px;
+    height: 110px;
+}
+.social-icons{
+    width:170px;
+    height:32px;
+    display: flex;
+    color: gray;
+    margin-top: 20px;
+}
+.social-icons i{
+    padding: 7.47px;
+    border-width: 32px;
+}
+.icon-body{
+    width:32px;
+    height:32px;
+    border-radius: 16px;
+    background-color: #edeff5ce;
+    margin-right: 14px;
+}
+.copyright p{
+    font-weight: 400px;
+    font-size: 18px;
+    margin: 20px 0px;
+}
