@@ -13,6 +13,16 @@ body{
     margin-right: 210px;
     margin-left: 180px;
 }
+.second-container{
+    margin-left: 180px;
+    margin-top: 50px;
+    display: flex;
+}
+.section-title{
+    margin-bottom: 33px;
+    margin-top: 3px;
+    margin-right: 50px;
+}
 /* ------------------------
 header-section style 
 -------------------------*/
@@ -121,9 +131,7 @@ header-section style
 ------------------------ */
 .latest-blogs{
     width:50%;
-    margin-left: 180px;
-    margin-top: 50px;
-
+    
 }
 
 .blog{
@@ -139,6 +147,37 @@ header-section style
 .blog-detail a{
     text-decoration: none;
     color:lightcoral;
+}
+/*-----------
+ Schedule 
+------------ */
+.schedule-body{
+    margin-left: 90px;
+    margin-top: 30px;
+}
+.schedule-body h2{
+    margin-left: 115px;
+}
+.schedules{
+    display: flex;
+    margin-left:60px;
+    
+}
+.date-place{
+    padding-right:30px;
+
+}
+.date-place h1{
+    color:rgb(68, 68, 201);
+    font-size: 40px;
+    margin-bottom: -15px;
+}
+.date-place h4{
+    color:rgb(125, 147, 247);
+}
+.button{
+    margin-top: 50px;
+    margin-left: -20px;
 }
 
  /*----------------------
