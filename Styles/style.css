@@ -115,8 +115,32 @@ header-section style
     color: #6C6C6C;
     font-size: 15px;
     font-weight: 400px;
-    /* margin-top: 10px; */
  }
+/* ---------------------
+       Latest Blog   
+------------------------ */
+.latest-blogs{
+    width:50%;
+    margin-left: 180px;
+    margin-top: 50px;
+
+}
+
+.blog{
+    display: flex;
+    padding-bottom: 10px;
+}
+.blog-detail{
+    padding-left: 15px;
+}
+.blog-detail h3{
+    width:300px;
+}
+.blog-detail a{
+    text-decoration: none;
+    color:lightcoral;
+}
+
  /*----------------------
      Footer Style 
    ---------------------*/
