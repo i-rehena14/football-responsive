@@ -232,10 +232,12 @@ header-section style
         
         grid-template-columns: repeat(1,1fr);
     }
-    .title,.player,.blogs,.blog,.second-container{
+    .title,.player,.blogs,.blog,.second-container,.schedules{
         flex-direction: column;
     }
-    
+    .button{
+        padding-left: 0;
+    }
     
 }
 /* ---------------
